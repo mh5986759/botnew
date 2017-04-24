@@ -48,7 +48,7 @@ function bot_run()
 end
 
 function is_ch(uid)
-local ch = '@botnexbot'
+local ch = '@RobotZedSpamTeam'
 	local send = send_api.."/getChatMember?chat_id="..ch..'&user_id='..uid
 	return send_req(send)
 end
